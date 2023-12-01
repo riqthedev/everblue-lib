@@ -18,7 +18,7 @@ export default function Header() {
             <ul>
                 <li><a href="#"> Browse Catalog</a></li>
                 <li><a href="#"> Search Catalog</a></li>
-                <li><a href="#"> Basket</a></li>
+                <li><a href="#">Basket</a></li>
             </ul>
         </div>
 
