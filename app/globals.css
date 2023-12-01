@@ -11,6 +11,10 @@
         color: white;
     }
 
+    .navbar li {
+        display: inline-block;
+        text-align: center;
+    }
 
     .header{
         position: fixed;
@@ -36,5 +40,21 @@
         text-align: center;
         padding: 14px 16px;
 
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: darkblue;
+        color: white;
+        
+    }
+
+    .footer li {
+        display: inline-block;
+        text-align: center;
+        height: 100px;
     }
 }
