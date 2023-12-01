@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    .navbar {
+        background-color: darkblue;
+        height: 70px;
+        color: white;
+    }
+
+
+    .header{
+        position: fixed;
+        width: 100%;
+        margin: 10px;
+
+
+    }
+
+    .header ul {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .header li {
+        float: right;
+        
+    }
+
+    .header li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+
+    }
+}
